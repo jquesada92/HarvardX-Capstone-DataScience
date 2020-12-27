@@ -1,0 +1,7 @@
+"0","parameters_aprio <- data.table(supports,confidences,rules_sup) %>% mutate(supports=as.factor(supports))"
+"0","parameters_aprio%>%"
+"0","  ggplot(aes(x=confidences,y=rules_sup))+"
+"0","  geom_point(aes(color=supports,linetype=supports))+"
+"0","  geom_line(aes(color=supports,linetype=supports)) +"
+"0","  labs(title=""Parameters for Apriori Algorithm"")"
+"0",""

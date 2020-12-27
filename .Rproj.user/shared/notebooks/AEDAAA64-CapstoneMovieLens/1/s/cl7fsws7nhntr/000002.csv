@@ -1,0 +1,23 @@
+"0","cat(sprintf("""
+"0","We are using the moviesId, userId, rating to detect patterns to reduce dimension and reduce the rmse between average and real rating."
+"0",""
+"0","New columns:"
+"0","- date: Then timestamp columns is a int, we need to transform to datetime format."
+"0","- title: remove the relase year from title."
+"0","- relased_yrear: extracted by using (\\W{1}\\d+\\W{1}) as pattern"
+"0","- year: year extracted from date column"
+"0",""
+"0","Total Distinct Users: %s\nTotal of Distinct Movies: %s\nTotal Observations: %s\n"",n_users,n_movies,total_obs))"
+"1","
+We are using the moviesId, userId, rating to detect patterns to reduce dimension and reduce the rmse between average and real rating.
+
+New columns:
+- date: Then timestamp columns is a int, we need to transform to datetime format.
+- title: remove the relase year from title.
+- relased_yrear: extracted by using (\W{1}\d+\W{1}) as pattern
+- year: year extracted from date column
+
+Total Distinct Users: 69878
+Total of Distinct Movies: 10677
+Total Observations: 9000055
+"

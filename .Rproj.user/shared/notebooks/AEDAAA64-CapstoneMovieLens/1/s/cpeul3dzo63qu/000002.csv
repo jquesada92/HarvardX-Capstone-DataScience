@@ -1,0 +1,17 @@
+"0","##########################################################"
+"0","# Create edx set, validation set (final hold-out test set)"
+"0","##########################################################"
+"0",""
+"0","# MovieLens 10M dataset:"
+"0","# https://grouplens.org/datasets/movielens/10m/"
+"0","# http://files.grouplens.org/datasets/movielens/ml-10m.zip"
+"0",""
+"0","dl <- tempfile()"
+"0","download.file(""http://files.grouplens.org/datasets/movielens/ml-10m.zip"", dl)"
+"2","probando la URL 'http://files.grouplens.org/datasets/movielens/ml-10m.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 65566137 bytes (62.5 MB)
+"
+"2","
+"
